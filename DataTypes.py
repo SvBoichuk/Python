@@ -82,3 +82,16 @@ fields = [typeOf(val) for typeOf, val in zip(fieldTypes,rawFields)]
 # wtf?
 
 print("Fields: ",fields)
+
+arr.sort()
+
+print("Sorted arr: ", arr)
+
+string = "My name is {name}, and i'm {years} old!"
+
+name = "Sviatoslav"
+age = 21
+
+formString = string.format(name = name, years = age)
+
+print(formString)
