@@ -1,6 +1,6 @@
 # if elif else ...
 
-arr = [[1, 2, 3], [4, 5, 6]]
+arr = [[1, 2, 3], [4, 5, 6], ["Hello","asdas","asdas"]]
 
 for x, y, z in arr:
     print(x, y, z)
